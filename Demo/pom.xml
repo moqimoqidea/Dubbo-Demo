@@ -31,25 +31,21 @@
 			<version>2.7.1</version>
 			<type>pom</type>
 		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
 		<dependency>
 			<groupId>org.apache.zookeeper</groupId>
 			<artifactId>zookeeper</artifactId>
-			<version>3.4.5</version>
+			<version>3.7.0</version>
 			<type>pom</type>
-		</dependency>  
+		</dependency>
 
 	</dependencies>
+
 	<modules>
 		<module>Provider</module>
 		<module>Consumer</module>
 		<module>Sdk</module>
 	</modules>
+
 </project>
-         

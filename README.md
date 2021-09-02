@@ -56,15 +56,3 @@
 
 最后，也通过写这个序的机会，感谢一下这本书的作者加多同学。这本书是目前市面上能够看到的唯一一本基于2.7介绍Dubbo原理的书籍。作者通过关键源码、与图文的有机结合，深入浅出的介绍了Dubbo的关键实现。也期待更多的开源爱好者可以通过学习这本书的同时，开始加入到Dubbo开源的大家庭里来，把国人主导的这个Apache顶级项目做的越来越好。
 
-
-## 0.5 购买链接
-- [京东](https://item.jd.com/12769688.html?dist=jd)
-- 淘宝
-
-## 0.6 我的网站
-https://zhailuxu.github.io/
-
-## 0.7 我的公众号
-![image]( https://zhailuxu.github.io/assets/images/jiaduowechat.png)
-
-
