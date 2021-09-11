@@ -42,7 +42,7 @@ public final class RpcServer {
 		EventLoopGroup bossGroup = new NioEventLoopGroup(1);// boss
 		EventLoopGroup workerGroup = new NioEventLoopGroup();// worker
 		// 1.创建业务处理hander
-		NettyServerHandler servrHandler = new NettyServerHandler();
+		final NettyServerHandler servrHandler = new NettyServerHandler();
 		try {
 			ServerBootstrap b = new ServerBootstrap();
 			b.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).option(ChannelOption.SO_BACKLOG, 100)
